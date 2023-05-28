@@ -28,7 +28,7 @@ JOIN
 		ON a.id = o.account_id
 		ORDER BY 2 DESC) t1
 ON t1.region = t2.region
-GROUP BY 1;
+GROUP BY 1
 
 /* Udacity solution */
 
